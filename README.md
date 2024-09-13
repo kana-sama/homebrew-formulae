@@ -6,13 +6,7 @@
 
 Or `brew tap kana-sama/formulas` and then `brew install <formula>`.
 
-Or, in a [`brew bundle`](https://github.com/Homebrew/homebrew-bundle) `Brewfile`:
+## List of formulas and casks:
 
-```ruby
-tap "kana-sama/formulas"
-brew "<formula>"
-```
-
-## Documentation
-
-`brew help`, `man brew` or check [Homebrew's documentation](https://docs.brew.sh).
+- [`asar`](https://github.com/RPGHacker/asar)
+- [`pocket-sync`](https://github.com/neil-morrison44/pocket-sync)

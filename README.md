@@ -1,4 +1,4 @@
-# Kana-sama Formulas
+# kana-sama formulae
 
 ## How do I install these formulae?
 

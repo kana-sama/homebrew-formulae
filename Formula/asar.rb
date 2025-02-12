@@ -1,12 +1,9 @@
 class Asar < Formula
-  desc "(Now) official repository of the SNES assembler Asar, originally created by Alcaro"
+  desc "Official repository of the SNES assembler Asar, originally created by Alcaro"
   homepage "https://github.com/RPGHacker/asar"
-  license "NOASSERTION"
+  url "https://github.com/RPGHacker/asar", using: :git, branch: "asar_19"
   version "1.91"
-  
-  url "https://github.com/RPGHacker/asar",
-    :using => :git,
-    :branch => "asar_19"
+  license "GPL-3.0-or-later"
 
   depends_on "cmake" => :build
 
@@ -15,5 +12,9 @@ class Asar < Formula
     system "make"
     system "make", "run-tests"
     system "make", "install"
+  end
+
+  test do
+    assert shell_output("#{bin}/asar --version").start_with?("Asar 1.91,")
   end
 end

@@ -1,11 +1,11 @@
 cask "pocket-sync" do
-  version "4.12.1"
-  sha256 :no_check
-
-  url "https://github.com/neil-morrison44/pocket-sync/releases/download/v#{version}/Pocket.Sync_#{version}_universal.dmg"
   name "Pocket Sync"
   desc "GUI tool for doing stuff with the Analogue Pocket"
   homepage "https://github.com/neil-morrison44/pocket-sync"
+  
+  version "5.5.0"
+  url "https://github.com/neil-morrison44/pocket-sync/releases/download/v#{version}/Pocket.Sync_#{version}_universal.dmg"
+  sha256 "452af252f1f1aaf18e10cf5e438f99f9b7ae2e28da05b985e58039dd3282deb9"
 
   livecheck do
     url :url

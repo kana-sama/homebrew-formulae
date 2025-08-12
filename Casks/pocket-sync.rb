@@ -5,7 +5,7 @@ cask "pocket-sync" do
 
   version "5.7.5"
   url "https://github.com/neil-morrison44/pocket-sync/releases/download/v#{version}/Pocket.Sync_#{version}_universal.dmg"
-  sha256 "452af252f1f1aaf18e10cf5e438f99f9b7ae2e28da05b985e58039dd3282deb9"
+  sha256 "d11aa984c67285b123f87725b85fae2bf160d28563f1fdb0d373b979d0680856"
 
   livecheck do
     url :url
